@@ -12,7 +12,6 @@ public class Cube
         }
     }
 
-
     public void setSide(int side){
         if (side < 1){
             throw new IllegalArgumentException("cube length != < 1");
